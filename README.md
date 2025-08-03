@@ -1,13 +1,14 @@
-# goLang
+# GO-LAB
 ## About
-This repo will contain my learning process in goLang 
+This repo contains my learning process with the Go programming language.
 ### Courses
-#### goSpecialization
-    This folder contains all exercises for the MOOC: Programming with Google Go
-    There is no _mod_ files since each file could be run independently
-    Use `go run file.go` e.g. `go run animals.go` under goSpecialization\course1 folder
+#### goSpecialization 
+This folder contains all the exercises from the MOOC: _Programming with Google Go_. **There are no module files, since each file can be run independently.**
+* [`Fundamentals`](goSpecialization/course1)
+* [`Functions and Interfaces`](goSpecialization/course2)
+* [`Concurrency`](goSpecialization/course3)
     
 ### Exercises
-#### paradigms-for-interviews
-    This folder contains different ways to solve common problems like _primenumber_ so each exercise has its own _mod_ file
-    So you can test each solution by using `go test` under each package like imperative/dynamic or declarative/classical or also `go test ./..` under exercise folder like primenumer/
+#### paradigms-for-interviews´
+This folder contains different ways to solve common problems, such as prime numbers, so each exercise has its own module file. You can test each solution by running `go test` inside each package—like `imperative/dynamic` or `declarative/classical`—or by running `go test ./...` inside the exercise folder, such as `primenumber/`.
+* [`is it a Prime Number?`](paradigms-for-interviews/primenumber)
